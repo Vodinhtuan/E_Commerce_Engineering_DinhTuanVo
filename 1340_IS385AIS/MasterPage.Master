@@ -1,0 +1,190 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="NGUYENQUOCTUAN_1340_IS385AIS_DOANCANHAN.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 216px;
+        }
+        .auto-style2 {
+            height: 22px;
+        }
+        .auto-style4 {
+            width: 940px;
+            height: 367px;
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+        }
+        .auto-style5 {
+            width: 252px;
+            height: 52px;
+        }
+        .auto-style6 {
+            font-family:'Californian FB';
+            font-size: 25px;
+            text-align:center;
+            height: 235px;
+            width: 252px;
+            background-color: azure;
+        }
+        .auto-style7 {
+            width: 1219px;
+            height: 52px;
+        }
+        .auto-style8 {
+            background-color: azure;
+            height: 235px;
+            width: 1219px;
+        }
+        .cangiuatieude{
+            text-align: center;
+        }
+
+        #dsCho{
+            
+            margin-top: 70px;
+            margin-left: 50px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        #imgDS{
+            border: 8px solid yellow;
+            width: 250px;
+            height: 250px;
+
+        }
+
+        #imgDS:hover{
+            border: 8px solid aqua;
+            border-top-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            transition: 0.5s;
+        }
+
+        #titleDS{
+             
+            
+            font-size: 25px;
+            color:black;
+            
+        }
+        
+        #dsCho{
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        
+        #giaDS{
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:center;
+        }
+        
+        #DMC:hover{
+            
+            background-color: aqua;
+            transition: 1s;
+            
+        }
+        #hinhanhchitiet{
+            float: left;
+            width: 300px;
+            height: 350px;
+            margin-top: 10px;
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-bottom: 10px;
+            background-color: blueviolet;
+        }
+        #tenSPCT{
+            font-size: 50px;
+            margin-top:20px;
+            margin-bottom: 10px;
+        }
+        #moTaCT{
+            font-size:20px;
+            margin-top: 10px;
+            margin-right:20px;
+            
+        }
+        #giaSP{
+            font-family:Calibri;
+            font-size: 30px;
+            margin-top:10px;
+        }
+
+        .cangiuatieude{
+            color:black;
+            font-size: 35px;
+            font-family: 'Baskerville Old Face';
+        }
+        
+        #tenCH{
+            text-align:center;
+            font-size: 100px;
+            margin-top: 2px;
+            margin-bottom: 0px;
+        }
+        #bienHieu{
+            text-align: center;
+            font-size:40px;
+            margin-top:0px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table border="1" style="width:100%;">
+            <tr>
+                <td class="auto-style1" colspan="2">
+                    <img alt="" class="auto-style4" src="IMAGES/banner1.jpg" />
+
+                    <p class="banner"> 
+                        <p id="tenCH"> KAINT </p>
+                    <br />
+                    <p id="bienHieu" >CỬA HÀNG CHUYÊN ĐỒ CHO CHÓ</p>
+
+                    </p>
+
+                </td>
+            </tr>
+            <tr class="cangiuatieude">
+                <td  style="vertical-align: middle" class="auto-style5"> <a style="text-decoration:none" href="pageDANHSACHSANPHAM.aspx">DANH MỤC</a></td>
+                <td style="vertical-align: middle" class="auto-style7">SẢN PHẨM</td>
+            </tr>
+            <tr>
+                <td class="auto-style6" style="vertical-align: inherit">
+                    <asp:Repeater ID="Repeater1" runat="server" OnItemCommand="Repeater1_ItemCommand">
+                    
+                    
+                        <ItemTemplate>
+                           <div >
+                               <p id="DMC">
+                                <a style="text-decoration:none" href="pageDANHSACHSANPHAM.aspx?IDDM=<%# Eval("IDDANHMUC") %>"> <%# Eval("TENDANHMUC") %></a>
+                                </p>
+                           </div>
+                        </ItemTemplate>
+                    
+                    
+                    </asp:Repeater>
+                </td>
+                <td class="auto-style8" style="vertical-align: top">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            </table>
+    </form>
+</body>
+</html>

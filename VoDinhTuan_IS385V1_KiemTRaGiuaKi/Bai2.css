@@ -1,0 +1,85 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.container > header {
+  background-image: url("bg_top.png");
+  background-size: 100% 100%;
+  height: 0px;
+
+  padding-bottom: 25%;
+}
+.container > nav {
+  line-height: 40px;
+  background-color: brown;
+  color: white;
+  text-align: center;
+  font-variant: small-caps;
+}
+.container > article {
+  min-height: 200px;
+  width: 70%;
+  background-color: white;
+  float: right;
+}
+.aside1 {
+  margin: 12px;
+  min-height: 200px;
+  width: 100%;
+  background-color: steelblue;
+}
+.aside2 {
+  margin: 10px;
+
+  min-height: 200px;
+  width: 100%;
+  background-color: white;
+  border: 2px solid #000000;
+}
+.canbang {
+  margin-top: 80px;
+  float: left;
+  max-width: 600px;
+  text-decoration: none;
+}
+.aside1 > ul > li > a {
+  color: aliceblue;
+}
+.aside2 > ul > li > a {
+  color: black;
+}
+.container > footer {
+  border-top: 5px 0 orangered;
+  line-height: 50px;
+  background-color: white;
+  text-align: center;
+  font-variant: small-caps;
+  clear: both;
+}
+.container > nav > a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.container > nav > a:hover {
+  color: yellow;
+}
+footer {
+  border-top: 2px double tomato;
+}
+
+iframe[name="page"] {
+  width: 100%;
+  min-height: 400px;
+}
+h3 {
+  color: blue;
+}
+
+img {
+  padding-right: 10px;
+}

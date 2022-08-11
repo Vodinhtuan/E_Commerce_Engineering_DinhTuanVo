@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="QLBANHANG.MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+       <%-- <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>--%>
+        <table style="width:100%" class="home">
+            <tr>
+                <td style="width:20%;">
+                    DANH MỤC HOA
+                    <asp:DataList ID="DataList1" runat="server">
+                        <ItemTemplate>
+                            
+                            <asp:LinkButton ID="LinkButton1" runat="server" 
+                                Text='<%# Eval("TENDM") %>' CommandArgument='<%# Eval("MADM") %>'
+                                OnClick="LinkButton1_Click"></asp:LinkButton>
+                        </ItemTemplate>
+                    </asp:DataList>
+                </td>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+                </td>
+                <td style="width:30%">
+                    <asp:Login ID="Login1" runat="server" LoginButtonText="Đăng nhập" OnAuthenticate="Login1_Authenticate" PasswordLabelText="Mật khẩu" RememberMeText="Ghi nhớ mật khẩu" TitleText="Thông tin đăng nhập" UserNameLabelText="Tên đăng nhập"></asp:Login>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <div class="top">
+            <div class="container">
+                <a href=""><img src="./images/vi.png"></a>
+                <a href=""><img src="./images/eng.png"></a>
+                <span class="dienthoai", ></span>
+                <a href="">Liên hệ</a>
+            </div>
+        </div>
+        <div class="main_header">
+            <div class="container">
+                <div class="conntent_header">
+                    <div class="main_header_logo">
+                        <img src="./images/logo_dtu_while.png">
+                    </div>
+                    <ul class="main_header_menu">
+                        <li>trang chủ</li>
+                        <li>giới thiệu</li>
+                        <li>tuyển sinh</li>
+                        <li>đào tạo</li>
+                        <li>nghiên cứu</li>
+                        <li>hoạt động</li>
+                        <li>tin tức</li>
+                    </ul>
+                    <ul></ul>
+                </div>
+            </div>
+        </div>
+        <div class="head_box">
+            <div class="container">
+                <a href="">Trang chủ/</a>
+                <a href="">Trường Khoa Học Máy Tính/</a>
+                <a href="">Khoa Công Nghệ Thông Tinh</a>
+            </div>
+        </div>
+        <div></div>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

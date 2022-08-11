@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Câu 1</title>
+</head>
+<body>
+<script>
+    let arrayNumber=[]
+    let Sum=0,dem=0;
+    let n=parseInt(prompt("Nhập số lượng phần tử:"));
+    for(let i=0; i<n; i++)
+    {
+        let x=parseInt(prompt("Nhập a["+i+"]"));
+        if(x%2!==0 && i%2===0)
+        {
+            Sum+=x;
+            dem++;
+        }
+        arrayNumber.push(x);
+    }
+    Sum/=dem;
+    alert("Trung bình cộng các số lẻ ở vị trí chẵn = "+Sum);
+
+</script>
+</body>
+</html>

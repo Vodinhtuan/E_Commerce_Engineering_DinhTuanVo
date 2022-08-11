@@ -1,0 +1,14 @@
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.exe
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.deps.json
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.runtimeconfig.json
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.runtimeconfig.dev.json
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.dll
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\bin\Debug\netcoreapp3.1\IS385V_Vodinhtuan.pdb
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.csproj.AssemblyReference.cache
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.GeneratedMSBuildEditorConfig.editorconfig
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.AssemblyInfoInputs.cache
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.AssemblyInfo.cs
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.csproj.CoreCompileInputs.cache
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.dll
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.pdb
+F:\K2_N2\KT_TMĐT\File_C#\IS385V_Vodinhtuan\IS385V_Vodinhtuan\obj\Debug\netcoreapp3.1\IS385V_Vodinhtuan.genruntimeconfig.cache

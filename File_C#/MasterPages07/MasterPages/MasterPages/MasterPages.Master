@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPages.master.cs" Inherits="MasterPages.MasterPages" %>
+
+<%@ Register Src="~/MasterPage_Link.ascx" TagPrefix="uc1" TagName="MasterPage_Link" %>
+<%@ Register Src="~/MasterPage_Menu.ascx" TagPrefix="uc1" TagName="MasterPage_Menu" %>
+
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <table style="width: 100%;">
+        <tr>
+            <td colspan="2"><img src="Image/anhbia.jpg" /></td>
+           
+        </tr>
+        <tr>
+            <td style="width:30%">
+                <uc1:MasterPage_Menu runat="server" id="MasterPage_Menu" />
+            </td>
+            <td rowspan="2" style="width:70%">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            </td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td style="width:30%">
+                <uc1:MasterPage_Link runat="server" id="MasterPage_Link" />
+
+            </td>
+        </tr>
+    </table>
+   <%-- <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>--%>
+</body>
+</html>
